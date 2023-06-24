@@ -1,48 +1,26 @@
+package com.amrita.jpl.cys21013.pract;
+
 /**
  * @author Basi Reddy Rohith Reddy
  * @version 1.0
- * The Flag class prints a flag pattern using asterisks (*) and equals (=) symbols.
+ * The Pattern class generates a pattern consisting of asterisks and equal signs.
  */
-package com.amrita.jpl.cys21013.pract;
 public class pattern {
     /**
-     * The main method of the Flag class.
+     * The main method generates and prints the pattern.
      *
-     * @param args Command line arguments (not used).
+     * @param args The command-line arguments.
      */
     public static void main(String[] args) {
         for (int i = 0; i < 4; i++) {
-            for (int f = 0; f < 39; f++) {
-                if (f < 6) {
-                    System.out.print("* ");
-                } else {
-                    System.out.print("=");
-                }
-            }
-            System.out.println();
-            for (int f = 0; f < 40; f++) {
-                if (f < 5) {
-                    System.out.print("* ");
-                } else {
-                    System.out.print("=");
-                }
-            }
-            System.out.println();
+            System.out.println("* * * * * * ===================================");
+            System.out.println("* * * * *  ====================================");
+        }
 
-        }
-        for (int f = 0; f < 39; f++) {
-            if (f < 6) {
-                System.out.print("* ");
-            } else {
-                System.out.print("=");
-            }
-        }
-        System.out.println();
+        System.out.println("* * * * * * ===================================");
+
         for (int i = 0; i < 5; i++) {
-            for (int f = 0; f < 45; f++) {
-                System.out.print("=");
-            }
-            System.out.println();
+            System.out.println("===============================================");
         }
     }
 }
